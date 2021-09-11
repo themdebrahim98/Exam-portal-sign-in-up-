@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../SignUp/SignUp.css";
+import './Card.css'
 import SignUp from "../SignUp/SignUp.js";
 import LogIn from "../LogIn/LogIn";
 export default function Cards() {
@@ -18,7 +18,7 @@ export default function Cards() {
   
 
   return (
-    <div>
+    <>
       <div className="wrap">
         <div className="row">
           {activebutton == "login" ? (
@@ -39,6 +39,6 @@ export default function Cards() {
           )}
         </div>
       </div>
-    </div>
+    </>
   );
 }

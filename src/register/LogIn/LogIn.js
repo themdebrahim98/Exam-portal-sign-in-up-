@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
-// import "./Login.css";
-import "../SignUp/SignUp.css";
-import "./LogIn.css";
+
 import repl_logo from "../SignUp/image/repl-logo.png";
 import signinlogo from "../SignUp/image/signin2.svg";
 
@@ -57,7 +55,7 @@ let cursor
 
   return (
     <>
-      <div className="left">
+      <div className="signinleft">
         <div className="logo">
           <img src={repl_logo} alt="" />
         </div>
@@ -74,8 +72,8 @@ let cursor
         </div>
       </div>
 
-      <div className="signin">
-        <div className="right">
+      <div className="signin-right">
+       
           <div className="register">
             <div class="btn-grp">
               <div
@@ -136,7 +134,7 @@ let cursor
               </ul>
             </form>
           </div>
-        </div>
+        
       </div>
     </>
   );

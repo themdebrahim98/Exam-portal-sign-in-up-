@@ -1,5 +1,4 @@
-import './App.css';
-import Cards from './components/Cards/Cards.js'
+import Cards from './register/Cards/Cards.js'
 
 function App() {
   return (
